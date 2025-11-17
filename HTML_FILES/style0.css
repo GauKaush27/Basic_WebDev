@@ -1,0 +1,45 @@
+h3,h5{
+    color: hotpink;
+}
+p::first-line {
+   color: green; 
+}
+h1,a{
+   color: blue;
+}
+li {
+    list-style-type: square;
+}
+.special{
+   color: orange;
+   font-weight: bold;
+}
+span.special{
+    color: purple;
+    font: bold;
+}
+li em{
+    color:rebeccapurple
+}
+h1{
+    font-size: 50px;
+}    
+h6+p{
+    font-size: 30px;
+}
+a:hover{
+    color:red;
+    text-decoration: none;
+}
+body h6+p .special{
+  color: cadetblue;
+  background-color: lightgreen;
+  padding: 5px;
+}
+li[class] {
+  font-size: 200%;
+  color: royalblue;
+}
+*{
+    list-style-type: none;
+}
