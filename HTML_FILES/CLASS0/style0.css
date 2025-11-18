@@ -13,6 +13,7 @@ li {
 .special{
    color: orange;
    font-weight: bold;
+   text-decoration: underline wavy red;
 }
 span.special{
     color: purple;
