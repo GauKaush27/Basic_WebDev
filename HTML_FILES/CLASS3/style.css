@@ -1,0 +1,48 @@
+.box{
+    Width: 620px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #232323;
+}
+
+.red, .yellow, .green{
+    border: 2px solid rgb(104, 110, 110);
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 100px;
+}
+button{
+    /* background-color: yellow; */
+    display: block;
+}  
+/* .yellow{
+    visibility: hidden;
+}  */
+    width: 616px;
+    border: 2px solid black;
+}
+
+.red, .yellow, .green{
+    border: 2px solid rgb(104, 110, 110);
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    display: inline-block;
+}
+button{
+    /* background-color: yellow; */
+    display: block;
+}  
+/* .yellow{
+    visibility: hidden;
+}  */
