@@ -1,3 +1,14 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "javascriptreact": "html",
+        "typescript": "typescriptreact",
+        "typescriptreact": "html",
+        "vue": "html"
+    },
+    "emmet.preferences": {
+        "output.selfClosingStyle": "xml"
+    }
 }
