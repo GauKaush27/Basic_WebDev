@@ -5,12 +5,22 @@ h1{
 }
 #FlexBox{
     text-align: center;
+    height: 600px;
+    width: 600px;
     border :2px solid black ;
     background-color: gray; 
-    padding :0px 50px 50px 50px ;
+    /* padding :0px 50px 50px 50px ; */
     display:flex;
     /* flex-direction: row-reverse; */
-    flex-direction:column;
+    /* flex-direction:column-reverse; */
+    /* height: 200px; */
+    flex-direction: row;
+     align-items: flex-start;
+    justify-content: center;
+    /* flex-wrap:wrap-reverse; */
+    /* align-content: center; */
+    /* flex-wrap: wrap; */
+
 }
 #box1, #box2, #box3, #box4, #box5{
     font-weight : light;
@@ -20,21 +30,26 @@ h1{
     /* margin: 0px 10px 10px 10px; */
     background-color: grey;
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 200px;
+    height: 50px;
 }  
 #box1{
     background-color: lightblue;        
 }   
 #box2{
-    background-color: pink;        
+    background-color: pink;  
+    height:200px;
+    /* align-self: flex-end;  */
+    flex-shrink: 0.2;
 }   
 #box3{
-    background-color: rgb(139, 139, 57);       
+    background-color: rgb(139, 139, 57);     
+    height: 75px;  
 }
 #box4{
     background-color: rgb(158, 70, 55);        
 }   
 #box5{
     background-color: darkblue;
+     /* align-self: flex-end;  */
 }
